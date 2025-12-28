@@ -12,7 +12,7 @@ namespace Day2_ResourceManagement
         private int _length;
         private bool _disposed = false;
 
-        // プロパティ: 配列の長さを取得 (C++の getLength() 相当)
+        // プロパティ:  配列の長さを取得 (C++の getLength() 相当)
         // 外部からは読み取り専用、内部でのみセット可能
         public int Length { get; private set; }
 
@@ -32,10 +32,10 @@ namespace Day2_ResourceManagement
                 Marshal.WriteByte(_memoryPtr, i, 0);
             }
             
-            Console.WriteLine($"[Alloc] Memory allocated: {length} bytes at 0x{_memoryPtr:X}");
+            Console.WriteLine($"[Alloc] Memory allocated:  {length} bytes at 0x{_memoryPtr:X}");
         }
 
-        // インデクサ: オブジェクトを配列のように扱えるようにする (C++の operator)
+        // インデクサ:  オブジェクトを配列のように扱えるようにする (C++の operator)
         // obj[i] = value; のように書けるようになる
         public byte this[int index]
         {
@@ -80,7 +80,7 @@ namespace Day2_ResourceManagement
             }
 
             // アンマネージドリソース（IntPtrなど）の解放はここで行う
-            if (_memoryPtr!= IntPtr.Zero)
+            if (_memoryPtr != IntPtr. Zero)
             {
                 Marshal.FreeHGlobal(_memoryPtr); // free()
                 Console.WriteLine($"[Free ] Memory freed at 0x{_memoryPtr:X}");
@@ -96,26 +96,26 @@ namespace Day2_ResourceManagement
         {
             // falseを指定: GCスレッドから呼ばれているため、他のマネージドオブジェクトには触ってはいけない
             Dispose(false);
-            Console.WriteLine("[GC   ] Finalizer called. (You forgot to Dispose!)");
+            Console.WriteLine("[GC   ] Finalizer called.  (You forgot to Dispose!)");
         }
     }
 
     class Program
     {
-        static void Main(string args)
+        static void Main(string[] args)  // 修正:  string args → string[] args
         {
-            Console.WriteLine("=== Day 2: Resource Management & IDisposable ===\n");
+            Console. WriteLine("=== Day 2: Resource Management & IDisposable ===\n");
 
             // パターンA: usingステートメント (推奨)
             // ブロックを抜けると自動的に Dispose() が呼ばれる (C++のスタック巻き戻しによるデストラクタ呼び出しに近い)
-            Console.WriteLine("--- Test A: using block ---");
+            Console. WriteLine("--- Test A: using block ---");
             using (var array = new UnmanagedArray(5))
             {
-                array = 10;
+                array[0] = 10;  // 修正: array = 10 → array[0] = 10
                 array[1] = 20;
-                Console.WriteLine($"Index 0: {array}");
-                Console.WriteLine($"Index 4: {array[1]}");
-                // array[2] = 30; // IndexOutOfRangeException
+                Console.WriteLine($"Index 0: {array[0]}");  // 修正: {array} → {array[0]}
+                Console.WriteLine($"Index 1: {array[1]}");  // 修正: Index 4 → Index 1, {array[1]}
+                // array[5] = 30; // IndexOutOfRangeException
             } // ここで "Memory freed" が表示されるはず
             Console.WriteLine("Outside using block.\n");
 
@@ -133,7 +133,7 @@ namespace Day2_ResourceManagement
         static void CreateGarbage()
         {
             var leaked = new UnmanagedArray(10);
-            leaked = 99;
+            leaked[0] = 99;
             // Dispose() を呼ばずにメソッドを抜ける -> メモリリーク（GC回収まで解放されない）
         }
     }
