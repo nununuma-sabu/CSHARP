@@ -33,3 +33,23 @@
 
 ## 得られる知見
 C#においては、データ構造を`struct`にするか`class`にするかの選択が、GCの負荷に直結することを理解する。C++のように「すべてをオブジェクトとして扱う」のではなく、用途に応じた型選択が重要である。
+
+## 実行結果
+```bash
+=== Day 1: C# Memory Management & Type System Deep Dive ===
+
+1. Struct vs Class (Array Allocation Test)
+[Struct] Time: 5ms, Memory Alloc: 7 MB
+[Class ] Time: 171ms, Memory Alloc: 30 MB
+--------------------------------------------------
+2. Boxing vs Generics (Performance Cost)
+[Object ] Time: 56ms (Boxing: int -> object)
+[Generic] Time: 7ms (No Boxing: int -> T)
+--------------------------------------------------
+3. GC Generation Observation
+Initial Generation: 0
+After GC Collect(0): Generation 1 (Promoted)
+After Full GC      : Generation 2 (Promoted again)
+
+=== 実験終了 ===
+```
