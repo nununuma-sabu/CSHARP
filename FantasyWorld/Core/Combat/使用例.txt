@@ -1,0 +1,6 @@
+var box = new DestructibleBox(50);
+box.TakeDamage(10); // OK: 直接呼び出し可能
+
+var shield = new CursedShield();
+// shield.TakeDamage(10); // コンパイルエラー！
+((IDamageable)shield).TakeDamage(10); // OK: キャストが必要
