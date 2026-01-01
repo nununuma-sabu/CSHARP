@@ -1,0 +1,10 @@
+var step1 = new QuestStep(1, "村長と話す", true);
+var log = new QuestLog("始まりの物語", new { step1 });
+
+// with式による非破壊的更新
+// logの中身は変更せず、新しいステップが追加された新しいlog2を作成
+// 注意: リストプロパティのwith更新は少し工夫が必要
+var newStep = new QuestStep(2, "スライムを倒す", false);
+var log2 = log with { Steps = log.Steps.Append(newStep).ToList().AsReadOnly() };
+
+Console.WriteLine(ReferenceEquals(log, log2)); // False (別のオブジェクト)
