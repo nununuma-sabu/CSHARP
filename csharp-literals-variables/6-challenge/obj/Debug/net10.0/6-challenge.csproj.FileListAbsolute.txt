@@ -1,0 +1,15 @@
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/bin/Debug/net10.0/6-challenge
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/bin/Debug/net10.0/6-challenge.deps.json
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/bin/Debug/net10.0/6-challenge.runtimeconfig.json
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/bin/Debug/net10.0/6-challenge.dll
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/bin/Debug/net10.0/6-challenge.pdb
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.GeneratedMSBuildEditorConfig.editorconfig
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.AssemblyInfoInputs.cache
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.AssemblyInfo.cs
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.csproj.CoreCompileInputs.cache
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.sourcelink.json
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.dll
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/refint/6-challenge.dll
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.pdb
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/6-challenge.genruntimeconfig.cache
+/home/numa/CSHARP/csharp-literals-variables/6-challenge/obj/Debug/net10.0/ref/6-challenge.dll
