@@ -1,0 +1,9 @@
+// Itemを継承したクラスなら何でも入れられるインベントリ
+var mixedBag = new Inventory<Item>(20);
+mixedBag.Add(new Consumable("Potion", 0.5, 10));
+mixedBag.Add(new Weapon("Sword", 5.0, 100));
+
+// Weapon専用のインベントリ（型安全性が保証される）
+var weaponRack = new Inventory<Weapon>(5);
+weaponRack.Add(new Weapon("Axe", 8.0, 120));
+// weaponRack.Add(new Consumable(...)); // コンパイルエラー！
