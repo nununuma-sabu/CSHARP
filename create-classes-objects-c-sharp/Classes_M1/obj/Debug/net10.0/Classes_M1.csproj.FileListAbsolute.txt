@@ -1,0 +1,15 @@
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.GeneratedMSBuildEditorConfig.editorconfig
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.AssemblyInfoInputs.cache
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.AssemblyInfo.cs
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.csproj.CoreCompileInputs.cache
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.sourcelink.json
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/bin/Debug/net10.0/Classes_M1
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/bin/Debug/net10.0/Classes_M1.deps.json
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/bin/Debug/net10.0/Classes_M1.runtimeconfig.json
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/bin/Debug/net10.0/Classes_M1.dll
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/bin/Debug/net10.0/Classes_M1.pdb
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.dll
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/refint/Classes_M1.dll
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.pdb
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/Classes_M1.genruntimeconfig.cache
+/home/numa/CSHARP/create-classes-objects-c-sharp/Classes_M1/obj/Debug/net10.0/ref/Classes_M1.dll
