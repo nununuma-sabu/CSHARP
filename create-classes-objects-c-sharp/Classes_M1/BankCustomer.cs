@@ -1,4 +1,5 @@
-    
+ namespace Classes_M1;    
+
  public class BankCustomer
  {
      private static int s_nextCustomerId;
