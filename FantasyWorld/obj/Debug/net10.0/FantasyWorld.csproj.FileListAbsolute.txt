@@ -1,0 +1,15 @@
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.AssemblyInfoInputs.cache
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.AssemblyInfo.cs
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.csproj.CoreCompileInputs.cache
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.sourcelink.json
+/home/numa/CSHARP/FantasyWorld/bin/Debug/net10.0/FantasyWorld
+/home/numa/CSHARP/FantasyWorld/bin/Debug/net10.0/FantasyWorld.deps.json
+/home/numa/CSHARP/FantasyWorld/bin/Debug/net10.0/FantasyWorld.runtimeconfig.json
+/home/numa/CSHARP/FantasyWorld/bin/Debug/net10.0/FantasyWorld.dll
+/home/numa/CSHARP/FantasyWorld/bin/Debug/net10.0/FantasyWorld.pdb
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.dll
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/refint/FantasyWorld.dll
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.pdb
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/FantasyWorld.genruntimeconfig.cache
+/home/numa/CSHARP/FantasyWorld/obj/Debug/net10.0/ref/FantasyWorld.dll

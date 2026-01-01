@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Program.cs
+// エントリーポイント：GameRunnerを呼び出すだけにする
+FantasyWorld.Capstone.GameRunner.Run();
