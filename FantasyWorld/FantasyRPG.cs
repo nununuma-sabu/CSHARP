@@ -7,6 +7,7 @@ using FantasyWorld.Core.Items;
 using FantasyWorld.Core.Combat;
 using FantasyWorld.Core.Storage;
 using FantasyWorld.Core.Quests;
+using FantasyWorld.Analytics;
 
 namespace FantasyWorld.Capstone;
 
