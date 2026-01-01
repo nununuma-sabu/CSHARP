@@ -1,0 +1,34 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vs/
+*. user
+*.suo
+*.userosscache
+*.sln. docstates
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# . NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*. nupkg
+*. snupkg
+**/packages/*
+! **/packages/build/
+*. nuget.props
+*.nuget.targets
+
+# Visual Studio cache files
+*. suo
+*.user
+*.userosscache
+*.sln. docstates
